@@ -1,0 +1,13 @@
+export ORIGINAL_JAVA_HOME=$JAVA_HOME
+export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+export ORIGINAL_JRE_HOME=$JRE_HOME
+export JRE_HOME=/usr/lib/jvm/java-8-openjdk-amd64/jre
+
+export SPARK_HOME=$PWD/spark/spark-3.3.0-bin-hadoop3
+export PYTHONPATH=$SPARK_HOME/python:$PYTHONPATH
+export PYSPARK_DRIVER_PYTHON="jupyter"
+export PYSPARK_DRIVER_PYTHON_OPTS="notebook"
+export PYSPARK_PYTHON=python3
+
+export ORIGINAL_PATH=$PATH
+export PATH=$SPARK_HOME:$PATH:~/.local/bin:$JAVA_HOME/bin:$JAVA_HOME/jre/bin

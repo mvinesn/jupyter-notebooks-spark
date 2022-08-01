@@ -1,0 +1,9 @@
+spark/
+spark-warehouse/
+.bsp
+.idea/
+scala/**/target
+downloads/
+data/
+pyenv
+_pycache__/
