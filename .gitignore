@@ -7,3 +7,4 @@ downloads/
 data/
 pyenv
 _pycache__/
+.ipynb_checkpoints
