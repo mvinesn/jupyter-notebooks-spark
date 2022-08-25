@@ -8,7 +8,7 @@ This shows how to set up Jupyter Notebooks with a local Spark cluster. For more 
 
 Ensure you have
 
-- Python 3.4+, and
+- [Python 3.4+](https://www.python.org/downloads/), and
    - [`virtualenv`](https://virtualenv.pypa.io/en/latest/)
    - [`virtualenvwrapper`](https://pypi.org/project/virtualenvwrapper/)
 - [Java 8](https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html)
@@ -25,7 +25,7 @@ To start notebooks, execute the `run` script in a command window in the project 
 
 This will open a new browser window with the notebooks interface (App logs will appear in the command window you executed the `run` script in).
 
-To test, load the `example.ipynb` file and running the commands therein.
+Try the app by loadiing the `example.ipynb` file and running the commands therein.
 
 Notebook files are by default saved in the `notebooks` directory.
 
