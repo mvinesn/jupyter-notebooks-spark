@@ -1,4 +1,4 @@
-Jupyter Notebooks
+Jupyter Notebooks with Spark
 ====================
 
 This shows how to set up Jupyter Notebooks with a local Spark cluster. For more details, see [this link](https://medium.com/free-code-camp/how-to-set-up-pyspark-for-your-jupyter-notebook-7399dd3cb389).
