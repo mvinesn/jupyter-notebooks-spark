@@ -8,9 +8,10 @@ This shows how to set up Jupyter Notebooks with a local Spark cluster. For more 
 
 Ensure you have
 
-- Python 3.4+
-   - `virtualenv` and `virtualenvwrapper` installed
-- Java 8
+- Python 3.4+, and
+   - [`virtualenv`](https://virtualenv.pypa.io/en/latest/)
+   - [`virtualenvwrapper`](https://pypi.org/project/virtualenvwrapper/)
+- [Java 8](https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html)
 
 ## Setup
 
